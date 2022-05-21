@@ -16,11 +16,11 @@
 
 
 /* header */
-.header__a__img {
+.header__logo__img {
     width: 160px;
 }
 
-.header__nav__a {
+.header__nav__link {
     text-decoration: none;
     font-weight: 400;
     color: var(--color-primary) ;
@@ -29,13 +29,13 @@
     line-height: 18.78px;
 }
 
-.header__nav__a:hover {
+.header__nav__link:hover {
     color: var(--hover-color);
 }
 
 /* secure section */
 
-.secure__div__h1 {
+.secure__div__heading {
     font-weight: 700;
     font-size:40px;
     line-height: 60px;
@@ -44,7 +44,7 @@
 
 }
 
-.secure__div__p {
+.secure__div__paragraph {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
@@ -59,7 +59,7 @@
 
 /* productive section */
 
-.productive__div__h2 {
+.productive__div__heading {
     font-weight: 700;
     font-size:40px;
     line-height: 46.96px;
@@ -67,7 +67,7 @@
     margin-bottom: 38px;
 }
 
-.productive__div__p {
+.productive__div__paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -75,7 +75,7 @@
     margin-bottom: 16px;
 }
 
-.productive__div__a {
+.productive__div__link {
     font-size: 16px;
     line-height: 22px;
     color: var(--text-color-green);
@@ -84,18 +84,18 @@
     margin-bottom: 45px;
 }
 
-.productive__div__a:hover{
+.productive__div__link:hover{
     color: var(--hover-text-green);
 }
 
-.productive__div__card__h3 {
+.productive__div__card__heading {
     font-family: "Nunito Sans";
     font-size: 45px;
     line-height: 67.5px;
     color: var(--color-primary);
 }
 
-.productive__div__card__p {
+.productive__div__card__paragraph {
     font-size: 13px;
     line-height: 23px;
     color: var(--color-primary);
@@ -119,14 +119,14 @@
 
 /* access */
 
-.access__div__h3 {
+.access__div__heading {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 16px;
 }
 
-.access__div__p {
+.access__div__paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -143,6 +143,10 @@
     font-size: 42px;
 }
 
+.social {
+    transition: all 0.4s ease-out ;
+}
+
 .social:hover{
     filter: invert(56%) sepia(20%) saturate(2463%) hue-rotate(195deg) brightness(104%) contrast(101%);
 }
@@ -154,12 +158,12 @@
         width: 100%;
     }
 
-    .secure__div__h1 {
+    .secure__div__heading {
         font-size:24px;
         line-height: 36px;
     }
 
-    .secure__div__p {
+    .secure__div__paragraph {
         font-size: 14px;
         line-height: 21px;
     }
@@ -170,28 +174,28 @@
         margin-bottom: 100px;
     }
 
-    .productive__div__h2 {
+    .productive__div__heading {
         font-size:16px;
         line-height: 24px;
     }
 
-    .productive__div__p {
+    .productive__div__paragraph {
         font-size: 14px;
         line-height: 21px;
     }
 
-    .productive__div__a {
+    .productive__div__link {
         font-size: 12px;
         line-height: 16px;
     }
 
     /* access section */
-    .access__div__h3 {
+    .access__div__heading {
         font-size: 18px;
         line-height: 24px;
     }
     
-    .access__div__p {
+    .access__div__paragraph {
         font-size: 14px;
         line-height: 21px;
     }
@@ -205,27 +209,27 @@
 @media only screen and (max-width: 568px) {
  
     /* header */
-    .header__a__img {
+    .header__logo__img {
         width: 80px;
     }
 
-    .header__nav__a {
+    .header__nav__link {
         font-size: 12px;
         line-height: 14.09px;
     }
 
     /* productive section */
-    .productive__div__h2 {
+    .productive__div__heading {
         font-size:16px;
         line-height: 24px;
     }
 
-    .productive__div__p {
+    .productive__div__paragraph {
         font-size: 14px;
         line-height: 21px;
     }
 
-    .productive__div__a {
+    .productive__div__link {
         font-size: 12px;
         line-height: 16px;
     }
