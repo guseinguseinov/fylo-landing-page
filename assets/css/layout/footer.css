@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--color-primary);
+    padding: 120px 5%;
+    justify-content: space-between;    
+}
+
+.footer__contact {
+    color: #fff;
+}
+
+.footer__nav, .footer__rules {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__socials {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 568px){
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__div {
+        margin-bottom: 50px;
+    }
+}   

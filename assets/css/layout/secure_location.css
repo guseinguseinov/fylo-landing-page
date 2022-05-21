@@ -1,0 +1,33 @@
+.secure {
+    width: 90%;
+    margin:20px auto 20px;
+    justify-content: space-between;
+}
+
+.secure__div {
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secure__div__form {
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 990px) {
+    .secure {
+        width: 90%;
+        margin-top: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .secure__div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .secure__div__form {
+        flex-direction: column;
+    }
+    
+}

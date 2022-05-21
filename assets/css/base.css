@@ -1,0 +1,26 @@
+:root {
+    --color-primary: #07043B;
+    --button-color-blue: #2F65F8;
+    --text-color-green: #3DA08F;
+    --hover-text-green:#71DFCC;
+    --input-color: #C0C0C0;
+    --background-color: #575988;
+    --hover-color: #6C9BFF;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Raleway";
+}
+
+main {
+    width: 100%;
+}
